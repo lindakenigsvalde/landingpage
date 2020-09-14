@@ -1,0 +1,316 @@
+.header-content {
+	background-image: url('../assets/header-bg-img.png');
+	background-position: bottom;
+	background-size: cover;
+	background-color: #100E1D;
+}
+
+.fanapps-logo {
+	position: absolute;
+	right: 0;
+	width: 380px;
+}
+
+.attention-orange {
+	background-color: #D86963;
+}
+
+.attention-purple {
+	background: linear-gradient(277.47deg, #3023AE -9.86%, #C86DD7 110.03%);
+}
+
+.attention {
+	padding: 10px 30px;
+	margin-top: 70px;
+}
+
+.attention h2 {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 117%;
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-family: 'Fira Sans', sans-serif;
+	margin: 30px 30px!important;
+	font-weight: 400!important;
+	font-size: 60px;
+	line-height: 117%;
+	color: #ffffff;
+	max-width: 750px;
+	text-align: center;
+}
+
+h1 span {
+	font-weight: 600;
+}
+
+.image-content {
+	background-color: rgba(16, 14, 29, 1);
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-image: url('../assets/bg-img-left-corner.png'), url('../assets/bg-img-right-corner.png');
+	background-position: left top, right bottom;
+	background-repeat: no-repeat, no-repeat;
+}
+
+.image-content img {
+	width: 100%;
+	max-width: 402px;
+}
+
+.feature-list-content {
+	background: #FEFEFE;
+	padding: 20px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list-content ul {
+	list-style-image: url(../assets/check.png);
+}
+
+.feature-list-content ul li {
+	font-family: 'Fira Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 156%;
+	margin: 10px 0px;
+	color: #27262B;
+}
+
+.feature-list-content .btn-orange {
+	background-color: #D86963;
+}
+
+.feature-list-content .btn-purple {
+	background: linear-gradient(277.47deg, #3023AE -9.86%, #C86DD7 110.03%);
+}
+
+.feature-list-content button {
+	color: #ffffff;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 78%;
+	border-radius: 0px;
+	padding: 15px 30px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.feature-list-content button:hover {
+	color: #ffffff;
+}
+
+.organization-logo p {
+	color: #27262B;
+	text-align: center;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+}
+
+.organization-logo img {
+	width: 95%;
+}
+
+.use-fanapps {
+	font-family: 'Fira Sans', sans-serif;
+	color: #27262B;
+	font-size: 24px;
+	margin: 30px 15px 15px 15px;
+}
+
+.footer {
+	background-color: #100E1D;
+	padding: 20px 0;
+	margin-top: 30px;
+}
+
+.footer span {
+	font-size: 14px;
+	font-family: 'Fira Sans', sans-serif;
+	color: #ffffff;
+	line-height: 171%;
+}
+
+#SIGNUP_HEADING {
+	color: #1D1D27;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.7rem;
+	line-height: 128%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#SIGNUP_HEADING span {
+	font-weight: 600;
+}
+
+.modal .modal-dialog .modal-content {
+	padding: 40px;
+}
+
+.modal form {
+	text-align: center;
+}
+
+.modal form button {
+	background-color: #D86963;
+	color: #ffffff;
+	font-family: 'Fira Sans', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 78%;
+	border-radius: 0px;
+	padding: 15px 30px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.modal-content {
+	border-radius: 0px!important;
+}
+
+.modal form button:hover {
+	color: #ffffff;
+}
+
+.close {
+	top: -40px;
+	position: relative;
+	right: -30px;
+	float: none;
+}
+
+.form-group input {
+	border: 1px solid #EBEBEB;
+	border-radius: 0px;
+	color: #1D1D27;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+	padding: 15px;
+}
+.redirect-text
+{
+	text-align:center;
+	margin-top: 15%;
+	color:#444444;
+}
+.redirect-not-working
+{
+	margin-top: 20px;
+	font-size:14px;
+	color:#444444;
+}
+.redirect-not-working a{
+	text-decoration:underline;
+	color:#444444;
+}
+.modal-body h2 {
+	font-size:1.6rem;
+	margin-bottom:20px;
+	text-align:center;
+}
+.modal-body h2 span 
+{
+	font-weight: 700;
+}
+
+@media screen and (max-width: 720px) {
+	h1 {
+		font-size: 2rem!important;
+	}
+	.attention h2 {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.logo-mobile {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 20px;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer span {
+		font-size: 13px!important;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.fanapps-logo {
+		width: 280px;
+	}
+	.attention {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.fanapps-logo {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.modal .modal-dialog .modal-content {
+		padding:20px;
+	}
+	.close {
+		top: -30px;
+		right: -20px;
+	}
+	.modal form button {
+		line-height: 117%;
+		margin: 0;
+		padding: 15px 15px;
+	}
+}
+
+/*iframe*/
+
+.tempHeadBdr
+{
+	display: none;
+}
+.templateWrapper
+{
+border-radius: 0px;
+box-shadow: none;
+-webkit-box-shadow:none;
+border:0px;
+-webkit-border-radius: 0xp;
+-moz-border-radius: 0px;
+-moz-box-shadow: none;
+}
+.backgroundBg
+{
+	background-color: #ffffff;
+}
+.backgroundSecBg
+{
+	padding:0px;
+}
+.subContWrap {
+	margin: 0px;
+}
+.fmFooter {
+	padding:0px;
+}
+.brandingWrapper {
+	display: none;
+}
